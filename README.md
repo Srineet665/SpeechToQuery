@@ -25,3 +25,14 @@ python speech_to_omop.py path/to/audio_file.wav
 The script prints a SQL query. The output assumes the target database implements
 the OMOP Common Data Model and is intended as a starting point that may require
 validation before execution.
+
+### GUI application
+
+For an interactive application that records audio from your microphone, run:
+
+```
+python app.py
+```
+
+A small window will open. Click **Start**, speak your query, and the resulting
+OMOP SQL will be displayed.
